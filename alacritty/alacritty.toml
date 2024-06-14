@@ -1,0 +1,15 @@
+shell = "zsh"
+[window]
+opacity = 1 
+
+padding.x = 10
+padding.y = 10
+dimensions = { columns = 70, lines = 20 }
+[font]
+
+normal.family = "FiraCodeNerdFont"
+bold.family = "FiraCodeNerdFont"
+italic.family = "FiraCodeNerdFont"
+bold_italic.family = "FiraCodeNerdFont"
+
+size = 20.0
