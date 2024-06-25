@@ -17,5 +17,5 @@ vim.opt.modifiable = true
 -- Disable hightlight on cursor
 vim.opt.cursorline = false
 -- no spell check
-vim.opt.spell = true
+vim.opt.spell = false
 -- [common]

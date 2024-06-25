@@ -1,3 +1,6 @@
+import = [
+    "~/.config/alacritty/themes/themes/nordic.toml"
+]
 shell = "zsh"
 [window]
 opacity = 1 

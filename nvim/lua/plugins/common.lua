@@ -107,7 +107,7 @@ return {
       -- stylua: ignore
       {
         "<leader>fp",
-        function() require("telescope.builtin").find_files({ cwd = require("lazy.core.config").options.root }) end,
+        function() require("telescope.builtin").find_files({ cwd = require("lazy.core.config").options.root, hidden = true }) end,
         desc = "Find Plugin File",
       },
     },
@@ -118,6 +118,11 @@ return {
         layout_config = { prompt_position = "top" },
         sorting_strategy = "ascending",
         winblend = 0,
+        pickers = {
+          find_files = {
+            hidden = true
+          }
+        }
       },
     },
   },
@@ -265,6 +270,7 @@ return {
         "shfmt",
         "flake8",
         "codelldb",
+
       },
     },
   },
